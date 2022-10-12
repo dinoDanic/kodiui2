@@ -1,12 +1,12 @@
-import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Thing } from '../.';
+import { Box } from '../src';
 
 const App = () => {
   return (
     <div>
-      <Thing />
+      haaa
+      <Box space={'small'}>hello</Box>
     </div>
   );
 };
