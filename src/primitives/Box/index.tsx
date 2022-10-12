@@ -11,7 +11,7 @@ const defaultConfig = {
 };
 
 try {
-  customConfig = require('../kodiui.config.js');
+  customConfig = require('../../kodiui.config.js');
 } catch (er) {
   console.log('er', er);
 }
