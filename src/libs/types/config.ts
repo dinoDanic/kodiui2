@@ -1,13 +1,14 @@
 import { SpaceProps } from "./space";
 
 export interface MainConfigProps {
-  space?: {
+  space: {
+    type: "scalable" | "fixed"
     scalable?: {
       step: string;
       space: string;
       mobileStep: string;
       tabletStep: string;
     };
-    fixed?: SpaceProps 
+    fixed: SpaceProps 
   };
 }

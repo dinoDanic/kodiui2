@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       haaa
-      <Box space={'small'}>hello</Box>
+      <Box space={"smaller"}>hello</Box>
     </div>
   );
 };

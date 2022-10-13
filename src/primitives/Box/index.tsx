@@ -8,7 +8,7 @@ interface Props {
 }
 
 const space: StyleFn<Props> = ({ space = 'base' }) => {
-  if (MainConfig.space?.fixed) {
+  if (MainConfig.space.type === "fixed") {
     return MainConfig.space.fixed[space];
   }
   return ""
